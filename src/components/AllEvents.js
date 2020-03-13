@@ -1,7 +1,6 @@
 import React, {useEffect} from 'react'
 import {connect} from 'react-redux';
 import {getItems} from '../actions';
-import AllCard from './AllCard'
 
 function Test(props){
 
@@ -11,18 +10,20 @@ function Test(props){
        props.getItems()
     },[])
 
-    return(
-        <>
-        <h1>All Rentals</h1>     
+     return(
+        <div className ="allevents">
+        <h2>All Rentals</h2> 
+         <div className ="flex"> 
         {props.rentals.map(item=>(
-            <><h1>{item.city}</h1>
-            <h1>{item.zip}</h1>
-            <h1>{item.address}</h1>
-            <h1>{item.email}</h1></>
-            
-        ))}
-
-        </>
+            <div className = "allCard">
+            <p>{item.city}</p>
+            <p>{item.zip}</p>
+            <p>{item.address}</p>
+            <p>{item.email}</p>
+            </div>            
+        ))}        
+        </div>
+        </div>
     )
 }
 

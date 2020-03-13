@@ -1,5 +1,16 @@
 .App {
   text-align: center;
+  background-image: linear-gradient(
+      rgba(43, 42, 42, 0.2),
+      rgba(43, 42, 32, 0.2)
+    ),
+    url("./Image/27818-bnb-kitchen.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 77vh;
+  /* background-position: unset; */
+
 }
 
 .App-logo {
@@ -36,3 +47,179 @@
     transform: rotate(360deg);
   }
 }
+
+.login{
+  border: 1px black solid;
+  width: 22%;
+  background: #ddc9bb;
+  margin: 4% 0 0 35%;
+  padding:2.5%;
+  border-radius: 8px;;
+}
+.loginlink{
+  padding:1%;
+  color:black;
+}
+
+.banner{
+  background: rgb(81,44,31); 
+  color:white;
+  padding:0.01%;
+}
+button{
+  border-radius: 4px;
+  width:7%;
+}
+button:hover{
+  width:9%;
+  background: #ddc9bb;
+  padding:0.9%;
+}
+.butn{
+  width:45%;
+  margin: 3% auto;
+  padding:1%;
+}
+
+.butn:hover{
+  background:rgb(81,44,31);
+  width:50%;
+  color: white;
+  padding:2%;  
+  border-radius:7px;
+}
+
+
+.flex{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space between;
+}
+.allCard{
+  width:20%;
+  border: 1px black solid;
+  background-image: linear-gradient(
+    rgba(43, 42, 42, 0.2),
+    rgba(43, 42, 32, 0.2)
+  ),
+  url("./Image/background-coffee.jfif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 40%;
+  min-height: 10vh;
+  background-position-x: unset;
+  margin: 1%;
+  word-break: break-all;
+  border-radius: 8px; 
+  /* color:white; */
+}
+.allCard:hover{
+padding:1%;
+background-image: linear-gradient(
+    rgba(43, 42, 42, 0.2),
+    rgba(43, 42, 32, 0.6)
+  ),
+  url("./Image/bnb-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 40%;
+  min-height: 30vh;
+  background-position: unset;
+  background-size: cover;
+  color:white;  
+}
+
+.allevents{
+  background:rgb(213,212,212) ;
+}
+.link{
+  width:25%;
+  background: white;
+  /* margin:4%; */
+  text-decoration:none;
+  font-size: 0.9rem;
+  color:black;
+  border-radius: 3px;  
+  margin: 3%;  
+}
+
+.link:hover{
+  background:#ddc9bb;
+  color:black;
+  /* width: 30%; */
+  padding:1%;
+  border-radius:6px;
+
+}
+.form{
+  display:flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width:25%;
+  margin: 2% auto 2% auto;
+  border: white 1px solid;
+  padding:2%;
+  border-radius: 6px;
+  background:white;
+}
+
+.input{
+  margin:0.5%;
+  padding:1%;
+  background:#ddc9bb;  
+}
+
+.input:hover{
+  background: white;
+}
+h2{
+  background: rgb(179,178,178);
+  width:30%;
+  margin:0 auto;
+  border:1px black solid;
+  border-radius: 7px;
+  padding:0.8%;
+}
+
+.myrentals{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+background: rgb(212,212,212);
+}  
+
+.myrental{
+  background-image: linear-gradient(
+    rgba(43, 42, 42, 0.2),
+    rgba(43, 42, 32, 0.7)
+  ),
+  url("./Image/brown-background.jfif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-size: cover;
+  min-height: 10vh;
+  border: 1px black solid;
+  margin:2%;
+  width: 25%;
+  border-radius: 8px;
+  padding: 2%;   
+  
+}
+
+.cover{
+ background:#ddc9bb;
+ width:80%;
+ margin: 0 auto;
+ border-radius: 8px;
+ padding:1%;
+ border: 2px rgb(139,107,60) solid;
+}
+  
+.heading{
+  background:rgb(212,212,212) ;
+}
+
+
+
+

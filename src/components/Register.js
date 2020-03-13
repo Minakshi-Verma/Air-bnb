@@ -21,7 +21,7 @@ const Register = (props) => {
         
         <div className = "login">
             {console.log("I am creds", creds)}
-            <Link to = "/">Already have an account?</Link>         
+            <p>For new members!</p>         
         <form onSubmit = {handleSubmit}>           
             <div>
                 <input 
@@ -50,8 +50,9 @@ const Register = (props) => {
                 onChange = {handleChanges}
                 />
             </div>            
-            <button className = "buttn" type = "submit">Register here</button>                
-        </form>        
+            <button className = "butn" type = "submit">Register here</button>                
+        </form> 
+        <Link className = "loginlink" to = "/">Already have an account?</Link>       
     </div> 
 
     )

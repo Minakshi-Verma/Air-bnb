@@ -19,9 +19,7 @@ import {login} from '../actions';
     return(        
         
         <div  className = "login">
-          <h1>hi</h1>
-            <Link className ="reg" to = "/register">Need an account?</Link>
-            <p>Please login!</p>
+            <p>For existing members!</p>
         <form onSubmit = {handleSubmit}>
             <div>
                 <input 
@@ -41,9 +39,9 @@ import {login} from '../actions';
                 onChange = {handleChanges}
                 />
             </div>
-            <button className = "buttn" type = "submit">Login</button>                
+            <button className="butn" type = "submit">Login</button>                
         </form>
-
+        <Link className ="loginlink" to = "/register">Need an account?</Link>
     </div> 
 
     )

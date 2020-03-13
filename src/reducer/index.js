@@ -1,4 +1,4 @@
-import {REGISTER, LOGIN, GETALLITEMS} from '../actions'
+import {REGISTER, LOGIN, GET_ALL_ITEMS, ADD_USER_RENTALS, DELETE_USER_RENTALS} from '../actions'
 
 const initialState = {
     user:{},
@@ -7,7 +7,7 @@ const initialState = {
 
 
 const reducer = (state = initialState, action) => {
-    console.log("action.type: " + action.type);
+    console.log("action.type:" + action.type);
     switch (action.type) {
       case REGISTER:
         return{
@@ -19,12 +19,21 @@ const reducer = (state = initialState, action) => {
             ...state,
             user: action.payload
           }  
-      case GETALLITEMS:
+      case GET_ALL_ITEMS:
           return{
               ...state,
               rentals: action.payload
-            }    
-      
+          } 
+      case ADD_USER_RENTALS:
+          return{
+              ...state,
+              rentals: action.payload
+          } 
+      case DELETE_USER_RENTALS:
+          return{
+              ...state,
+              // rentals: action.payload
+            }          
       default:
         return state;
     }

@@ -6,28 +6,39 @@ import Login from './components/Login';
 import Home from './components/Home';
 import AllEvents from './components/AllEvents';
 import Banner from './components/Banner';
+import Form from './components/Form';
+import MyRentals from './components/MyRentals'
 
 
 function App() {
   return (
     <div className="App">
       
-     
+      <Route path = "/">
+        <Banner />
+       </Route>
 
       <Route exact path = "/">
         <Login />
-       </Route>
+       </Route>      
 
       <Route path = "/register">
         <Register />
       </Route>    
 
-      <Route path = "/api/:id">
-        <Banner />
-        <AllEvents />
+      <Route path = "/api">       
+        <AllEvents />      
+
       </Route>
 
-     
+      <Route path = "/form/:id">       
+        <Form />
+      </Route> 
+
+       <Route path = "/myrentals/:id">       
+        <MyRentals />
+      </Route> 
+
       
     </div>
   );
