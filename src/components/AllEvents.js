@@ -16,10 +16,14 @@ function Test(props){
          <div className ="flex"> 
         {props.rentals.map(item=>(
             <div className = "allCard">
+            <div className = 'innerbox'>
             <p>{item.city}</p>
             <p>{item.zip}</p>
             <p>{item.address}</p>
             <p>{item.email}</p>
+            </div>
+            <div className ='fake'>
+            </div>
             </div>            
         ))}        
         </div>

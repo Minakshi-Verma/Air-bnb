@@ -17,7 +17,7 @@ export default function Banner(){
         <div className = "banner">            
             {localStorage.getItem("token") ? 
             <>
-            <button onClick = {logout}>Log out</button>
+            <button className= "bt" onClick = {logout}>Log out</button>
             <Link className = "link"to = {`/api`}>All rentals</Link>
             <Link className = "link"to = {`/form/${id}`}>Add rentals</Link>
             <Link className = "link"to = {`/myrentals/${id}`}>My rentals</Link>
