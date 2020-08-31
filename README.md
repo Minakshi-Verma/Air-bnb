@@ -1,6 +1,6 @@
 # Air-bnb
 
-![MIT](https://img.shields.io/packagist/l/doctrine/orm.svg) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier) ![Maintainability](https://api.codeclimate.com/v1/badges/39c95c84b11b91c11a7b/maintainability) </br>
+![stars](https://img.shields.io/github/stars/Minakshi-Verma/Air-bnb)![MIT](https://img.shields.io/packagist/l/doctrine/orm.svg) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier) ![Maintainability](https://api.codeclimate.com/v1/badges/39c95c84b11b91c11a7b/maintainability) </br>
 
 ### Deployed link 
 
