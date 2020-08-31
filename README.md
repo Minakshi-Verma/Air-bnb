@@ -1,6 +1,6 @@
 # Air-bnb
 
-![MIT](https://img.shields.io/packagist/l/doctrine/orm.svg) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier) [![Maintainability](https://api.codeclimate.com/v1/badges/be4c9e543ea59cfc8469/maintainability)](https://codeclimate.com/github/Lambda-School-Labs/community-calendar-fe/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/be4c9e543ea59cfc8469/test_coverage)](https://codeclimate.com/github/Lambda-School-Labs/community-calendar-fe/test_coverage)
+![MIT](https://img.shields.io/packagist/l/doctrine/orm.svg) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier) [![Maintainability](https://api.codeclimate.com/v1/badges/be4c9e543ea59cfc8469/maintainability)](https://codeclimate.com/github/Lambda-School-Labs/community-calendar-fe/maintainability) 
 
 
 ### Deployed link 
