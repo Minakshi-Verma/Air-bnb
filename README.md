@@ -12,8 +12,6 @@ https://air-bnb-osjvpiir7.now.sh/
 ### What is Air-bnb
 You guessed it right!!! It is a small replica of popular app Bed and breakfast (BNB). With this app, a host can create his account, add their property to the list for overnight rentals. He can provide all the fancy details about his property through the input form. He can edit his listing or delete it all together. 
 
-### Issues:
-Edit form was not working correctly so this functionality is removed for a limited time.
 
 ### Tech stack
 React || Redux || CSS || REST || Netlify
