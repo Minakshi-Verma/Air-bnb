@@ -5,7 +5,7 @@
 ### Deployed link 
 
 
-https://air-bnb-osjvpiir7.now.sh/
+https://air-bnb-nomhh2pu1.vercel.app/api/82
 
 ### Contributors : Minakshi Verma || Devin Dias
 
