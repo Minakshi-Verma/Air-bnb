@@ -92,7 +92,7 @@ const handleSubmit = (e) =>{
                     onChange = {handleChanges}           
                 />           
            
-            <button className="butn">Add new rental</button>
+            <button className="butn btn">Add new rental</button>
             </form>
         </div>
     )

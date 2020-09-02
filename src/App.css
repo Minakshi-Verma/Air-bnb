@@ -43,7 +43,7 @@ button{
 
 .bt{
   width: 100px;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 18px;
 }
 
@@ -56,6 +56,10 @@ button:hover{
   width:40%;
   margin-left: 7%;
   padding:1%;
+}
+
+.btn{
+  margin-left: 29% !important; 
 }
 
 .butn:hover{
@@ -75,7 +79,7 @@ button:hover{
   margin: 0 auto; 
 }
 .allCard{
-  width:21%;
+  width:23%;
   border: 1px black solid;
   background-color: rgb(34, 18, 3);
   background-size: 40%;
@@ -109,7 +113,7 @@ background-image: linear-gradient(
   border:white;
   background-color: #f3e7de;
   color:black; 
-  padding:2%;
+  padding:1.5%;
   font-style: italic;
   font-size: 18px;
   border-radius: 8px;
@@ -117,7 +121,7 @@ background-image: linear-gradient(
 }
 
 .fake{
-  width: 305x;
+  width: 340px;
   height: 40px;
   margin:1px 3px 1px 10px;
   background-image:url("./Image/marbel.jpg")
@@ -137,7 +141,7 @@ background-image: linear-gradient(
   margin: 25% 3% 3% 8%;
   padding: 0.3%;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .link:hover{

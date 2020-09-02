@@ -17,10 +17,10 @@ function Test(props){
         {props.rentals.map(item=>(
             <div className = "allCard">
             <div className = 'innerbox'>
-            <p><strong>City</strong>:{item.city}</p>
-            <p><strong>Zip</strong>:{item.zip}</p>
-            <p><strong>Address</strong>:{item.address}</p>
-            <p><strong>Email</strong>:{item.email}</p>
+            <p><strong>City</strong>: {item.city}</p>
+            <p><strong>Zip</strong>: {item.zip}</p>
+            <p><strong>Address</strong>: {item.address}</p>
+            <p><strong>Email</strong>: {item.email}</p>
             </div>
             <div className ='fake'>
             </div>

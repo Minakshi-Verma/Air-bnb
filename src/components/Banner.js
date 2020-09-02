@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link, useHistory} from 'react-router-dom';
-import Form from "../components/Form"
+
 
 
 
@@ -17,10 +17,10 @@ export default function Banner(){
         <div className = "banner">            
             {localStorage.getItem("token") ? 
             <>
-            <button className= "bt" onClick = {logout}>Log out</button>
-            <Link className = "link"to = {`/api`}>All rentals</Link>
-            <Link className = "link"to = {`/form/${id}`}>Add rentals</Link>
-            <Link className = "link"to = {`/myrentals/${id}`}>My rentals</Link>
+            <button className= "bt" onClick = {logout}>Logout</button>
+            <Link className = "link"to = {`/api`}>All Rentals</Link>
+            <Link className = "link"to = {`/form/${id}`}>Add Rentals</Link>
+            <Link className = "link"to = {`/myrentals/${id}`}>My Rentals</Link>
             </> : null            
             }          
            
