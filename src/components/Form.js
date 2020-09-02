@@ -6,17 +6,18 @@ import {useParams} from 'react-router-dom';
 
 const Form = ({addItems}) =>{
 const[form, setForm] = useState({})
- const {id} = useParams()
- console.log("I am the id", id)
+const {id} = useParams()
+console.log("I am the id", id)
+
 const handleChanges =(e)=>{
 setForm({...form, [e.target.name]: e.target.value})
- }
+}
 
- const handleSubmit = (e) =>{
+const handleSubmit = (e) =>{
      e.preventDefault()
      addItems(form, id)
      setForm({})
- }
+}
     return(        
          <div>            
             <form className ="form" onSubmit ={handleSubmit}>     

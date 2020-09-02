@@ -16,8 +16,7 @@ const MyRentals = ({rentals, getUserItems, deleteItems}) => {
         <div className= "heading">       
             <h2>My rental listing</h2>
             <div className = "myrentals">
-                {console.log("i m rental", rentals)}
-                {rentals.map(rental=>(
+                    {rentals.map(rental=>(
                     <Rental 
                     key = {rental.id} rental = {rental} deleteItems = {deleteItems} setBool = {setBool}
                     />

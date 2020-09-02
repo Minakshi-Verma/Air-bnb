@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 
 const Rental = ({rental, deleteItems, setBool}) => {
 console.log("hi")
@@ -11,16 +11,16 @@ console.log("hi")
         
             <div className = "myrental">
                 <div className = "cover"> 
-                    <p>City: {rental.city}</p>
-                    <p>Zip: {rental.zip}</p>
-                    <p>Address: {rental.address}</p>
-                    <p>Bednumber: {rental.bednumber}</p>
-                    <p>Bathnumber: {rental.bathnumber}</p>
-                    <p>State: {rental.state}</p>
-                    <p>Price: {rental.price}</p>
-                    <p>Sqft: {rental.sqft}</p>
-                    <p>Email: {rental.email}</p>
-                    <p>Date: {rental.date}</p>
+                    <p><strong>City</strong>: {rental.city}</p>
+                    <p><strong>Zip</strong>: {rental.zip}</p>
+                    <p><strong>Address</strong>: {rental.address}</p>
+                    {/* <p><strong>Bednumber</strong>: {rental.bednumber}</p>
+                    <p><strong>Bathnumber</strong>: {rental.bathnumber}</p> */}
+                    <p><strong>State</strong>: {rental.state}</p>
+                    <p><strong>Price</strong>: {rental.price}</p>
+                    <p><strong>Sqft</strong>: {rental.sqft}</p>
+                    <p><strong>Email</strong>: {rental.email}</p>
+                    <p><strong>Date</strong>: {rental.date}</p>
                     <button className ="butn">Edit</button>
                     <button className ="butn" onClick = {remove}>Delete</button>
                     {/* <button onClick = {() =>{deleteItems(rental.id, rental.planner_id)></button> */}

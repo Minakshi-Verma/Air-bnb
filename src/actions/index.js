@@ -89,10 +89,10 @@ export const getUserItems = (planner_id) => {
         }
     }
 
-export const deleteItems = (shit,fun) =>{
+export const deleteItems = (id) =>{
     return dispatch =>{
         return axiosWithAuth()
-        .delete(`${deleteUserRentalEndPoint + shit}`)
+        .delete(`${deleteUserRentalEndPoint + id}`)
         
         .then(res=>{
            console.log("I am res", res)
