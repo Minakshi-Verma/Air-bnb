@@ -7,13 +7,18 @@ export const LOGIN = "LOGIN"
 export const GET_ALL_ITEMS = "GET_ALL_ITEMS"
 export const ADD_USER_RENTALS = "ADD_USER_RENTALS"
 export const DELETE_USER_RENTALS = "DELETE_USER_RENTALS"
+export const UPDATE_USER_RENTALS = "UPDATE_USER_RENTALS"
+const baseUrl = "https://airbnbclonedevin.herokuapp.com" 
 
-const registerEndPoint = "https://airbnbclonedevin.herokuapp.com/auth/register"
-const loginEndPoint = "https://airbnbclonedevin.herokuapp.com/auth/login"
-const getAllEndPoint ="https://airbnbclonedevin.herokuapp.com/api/"
-const addUserRentalEndPoint ="https://airbnbclonedevin.herokuapp.com/api/"
-const getUserRentalEndPoint = "https://airbnbclonedevin.herokuapp.com/api/"
-const deleteUserRentalEndPoint = "https://airbnbclonedevin.herokuapp.com/api/"
+const registerEndPoint = `${baseUrl}/auth/register`
+const loginEndPoint = `${baseUrl}/auth/login`
+const getAllEndPoint =`${baseUrl}/api/`
+const addUserRentalEndPoint =`${baseUrl}/api/`
+const getUserRentalEndPoint = `${baseUrl}/api/`
+const deleteUserRentalEndPoint = `${baseUrl}/api/`
+const updateUserRentalEndPoint = `${baseUrl}/api/`
+
+
 
 export const registration = (user) => {
     return dispatch => {     
@@ -99,6 +104,18 @@ export const deleteItems = (id) =>{
         })
         .catch(error=>{
             console.log(error)
+        })
+    }
+}
+
+export const updateItems = (id) => {
+    return dispatch =>{
+        return axiosWithAuth()
+        .put(`${updateUserRentalEndPoint} + id`, {city:"Devin"})
+
+        .then(res=>{
+            console.log("I am res from update", res)
+
         })
     }
 }
