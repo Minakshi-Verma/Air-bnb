@@ -28,10 +28,9 @@ deleteItems(rental.id).then(res=>setBool(bool=>!bool))
                     <button className = "butn" onClick = {remove}>Delete</button>
                     {/* <button onClick = {() =>{deleteItems(rental.id, rental.planner_id)></button> */}
                 </div>
-                {isShow && <Modal  formState = {{id: rental.id, city: rental.city}}/>}
+                {isShow && <Modal  rental= {rental}/>}
                
-            </div>
-      
+            </div>      
     )
 }
 export default Rental

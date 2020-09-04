@@ -4,8 +4,9 @@ import {updateItems} from '../actions'
 import {useParams} from 'react-router-dom';
 
 
-const Modal = ({updateItems, formState}) =>{
-const[form, setForm] = useState({city:formState.city})
+const Modal = ({updateItems, rental}) =>{
+const[form, setForm] = useState({...rental})
+// const[form, setForm] = useState({city:formState.city})
 const {id} = useParams()
 console.log("I am the id", id)
 
@@ -14,9 +15,12 @@ setForm({...form, [e.target.name]: e.target.value})
 }
 
 const handleSubmit = (e) =>{
-     e.preventDefault()
-    updateItems(form, form.id )
-    //  setForm({})
+     e.preventDefault()  
+     
+    updateItems(rental.id, form )    
+    console.log("I am form", form)
+    console.log("I am rentalid", rental.id)
+     
 }
     return(        
          <div>            
@@ -92,7 +96,7 @@ const handleSubmit = (e) =>{
                     onChange = {handleChanges}           
                 />           
            
-            <button className="butn btn">Update Rental</button>
+            <button className="butn btn bn">Submit</button>
             </form>
         </div>
     )

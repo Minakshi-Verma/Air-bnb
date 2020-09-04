@@ -108,13 +108,14 @@ export const deleteItems = (id) =>{
     }
 }
 
-export const updateItems = (id) => {
+export const updateItems = (id, rental) => {
     return dispatch =>{
         return axiosWithAuth()
-        .put(`${updateUserRentalEndPoint} + id`, {city:"Devin"})
+        .put(`${updateUserRentalEndPoint + id} `, rental)
 
         .then(res=>{
             console.log("I am res from update", res)
+            history.push(`/api/${id}`)
 
         })
     }

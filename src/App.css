@@ -192,6 +192,8 @@ p{
 
 .myrentals{
 display: flex;
+width: 80%;
+margin: 0 auto;
 justify-content: space-between;
 flex-wrap: wrap;
 background: rgb(212,212,212);
@@ -233,16 +235,17 @@ background: rgb(212,212,212);
 }
 
 .Modal{
-  position:fixed;
-  z-index: 1;
-  top: 25px;
+  position: fixed;
+  /* z-index: 1; */
+  top: 75px;
   background: rgb(207, 202, 202);
   display: flex;
   flex-direction: column;
-  margin-left:30%;
-  width: 40%;
-
+  margin-left:12%;
+  width: 14.5%; 
 };
+
+
 
 
 
