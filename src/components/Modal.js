@@ -1,27 +1,28 @@
 import React, {useState} from 'react';
 import {connect} from 'react-redux';
-import {addItems} from '../actions'
+import {updateItems} from '../actions'
 import {useParams} from 'react-router-dom';
 
+const Modal = ({updateItems, rental}) =>{
 
-const Form = ({addItems}) =>{
-const[form, setForm] = useState({})
+const[form, setForm] = useState({...rental})
+// const[form, setForm] = useState({city:formState.city})
 const {id} = useParams()
+console.log("I am the id", id)
 
-//onClick handler to update form input
 const handleChanges =(e)=>{
 setForm({...form, [e.target.name]: e.target.value})
 }
 
-//handleSubmit function
 const handleSubmit = (e) =>{
-     e.preventDefault()
-     addItems(form, id)
-     setForm({})
+     e.preventDefault()      
+    updateItems(rental.id, form )    
+    console.log("I am form", form)
+    console.log("I am rentalid", rental.id)     
 }
     return(        
          <div>            
-            <form className ="form" onSubmit ={handleSubmit}>     
+            <form className ="Modal" onSubmit ={handleSubmit}>     
                 <input className= "input"
                     type ="text"
                     name = "city"
@@ -91,11 +92,10 @@ const handleSubmit = (e) =>{
                     placeholder ="date"
                     value= {form.date}
                     onChange = {handleChanges}           
-                />           
-            <button className="butn btn">Add new rental</button>
+                />          
+            <button className="butn btn bn">Submit</button>
             </form>
         </div>
     )
 }
-export default connect(null,{addItems})(Form)
-            
+export default connect(null,{updateItems})(Modal)

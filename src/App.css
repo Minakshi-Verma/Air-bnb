@@ -79,7 +79,7 @@ button:hover{
   margin: 0 auto; 
 }
 .allCard{
-  width:25.5%;
+  width:26%;
   border: 1px black solid;
   background-color: rgb(34, 18, 3);
   background-size: 40%;
@@ -121,7 +121,7 @@ background-image: linear-gradient(
 }
 
 .fake{
-  width: 76%;
+  width: 80%;
   height: 40px;
   margin:1px 3px 1px 10px;
   background-image:url("./Image/marbel.jpg")
@@ -192,6 +192,8 @@ p{
 
 .myrentals{
 display: flex;
+width: 80%;
+margin: 0 auto;
 justify-content: space-between;
 flex-wrap: wrap;
 background: rgb(212,212,212);
@@ -231,6 +233,18 @@ background: rgb(212,212,212);
   padding:1%;
   margin-top:0
 }
+
+.Modal{
+  position: fixed;
+  /* z-index: 1; */
+  top: 75px;
+  background: rgb(207, 202, 202);
+  display: flex;
+  flex-direction: column;
+  margin-left:12%;
+  width: 14.5%; 
+};
+
 
 
 

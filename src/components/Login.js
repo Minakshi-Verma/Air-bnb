@@ -7,17 +7,16 @@ import {login} from '../actions';
    
     const [creds, setCreds] = useState({})
      
+    //onclick handler to update input state
     const handleChanges = e => {
     setCreds({...creds,[e.target.name]:e.target.value})
    }
-
+    //handleSubmit function
     const handleSubmit = e => {
         e.preventDefault()
         props.login(creds)
-    }
-   
-    return(        
-        
+    }   
+    return(             
         <div  className = "login">
             <p>For existing members!</p>
         <form onSubmit = {handleSubmit}>
@@ -43,7 +42,6 @@ import {login} from '../actions';
         </form>
         <Link className ="loginlink" to = "/register">Need an account?</Link>
     </div> 
-
     )
 }
 export default connect(null,{login})(Login)

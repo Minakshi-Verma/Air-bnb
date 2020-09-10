@@ -3,7 +3,7 @@ import './App.css';
 import {Route, Link} from 'react-router-dom';
 import Register from "./components/Register";
 import Login from './components/Login';
-import Home from './components/Home';
+// import Home from './components/Home';
 import AllEvents from './components/AllEvents';
 import Banner from './components/Banner';
 import Form from './components/Form';
@@ -26,7 +26,7 @@ function App() {
         <Register />
       </Route>    
 
-      <Route path = "/api">       
+      <Route path = "/allevents">       
         <AllEvents />      
 
       </Route>
