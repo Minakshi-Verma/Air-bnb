@@ -79,7 +79,8 @@ button:hover{
   margin: 0 auto; 
 }
 .allCard{
-  width:26%;
+  /* width:26%; */
+  width: 285px;
   border: 1px black solid;
   background-color: rgb(34, 18, 3);
   background-size: 40%;
@@ -121,8 +122,8 @@ background-image: linear-gradient(
 }
 
 .fake{
-  width: 80%;
-  height: 40px;
+  width: 270px;
+  height: 40px; 
   margin:1px 3px 1px 10px;
   background-image:url("./Image/marbel.jpg")
 
