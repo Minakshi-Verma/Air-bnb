@@ -7,12 +7,13 @@ import {useParams} from 'react-router-dom';
 const Form = ({addItems}) =>{
 const[form, setForm] = useState({})
 const {id} = useParams()
-console.log("I am the id", id)
 
+//onClick handler to update form input
 const handleChanges =(e)=>{
 setForm({...form, [e.target.name]: e.target.value})
 }
 
+//handleSubmit function
 const handleSubmit = (e) =>{
      e.preventDefault()
      addItems(form, id)
@@ -91,13 +92,10 @@ const handleSubmit = (e) =>{
                     value= {form.date}
                     onChange = {handleChanges}           
                 />           
-           
             <button className="butn btn">Add new rental</button>
             </form>
         </div>
     )
 }
-
-
 export default connect(null,{addItems})(Form)
             

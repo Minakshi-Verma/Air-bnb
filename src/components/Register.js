@@ -14,11 +14,8 @@ const Register = (props) => {
    const handleSubmit = (e) => {
     e.preventDefault()
     props.registration(creds)  
-  }
-    
-    return(
-   
-        
+  }    
+    return(         
         <div className = "login">
             {console.log("I am creds", creds)}
             <p>For new members!</p>         

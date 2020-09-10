@@ -3,8 +3,8 @@ import {connect} from 'react-redux';
 import {updateItems} from '../actions'
 import {useParams} from 'react-router-dom';
 
-
 const Modal = ({updateItems, rental}) =>{
+
 const[form, setForm] = useState({...rental})
 // const[form, setForm] = useState({city:formState.city})
 const {id} = useParams()
@@ -15,12 +15,10 @@ setForm({...form, [e.target.name]: e.target.value})
 }
 
 const handleSubmit = (e) =>{
-     e.preventDefault()  
-     
+     e.preventDefault()      
     updateItems(rental.id, form )    
     console.log("I am form", form)
-    console.log("I am rentalid", rental.id)
-     
+    console.log("I am rentalid", rental.id)     
 }
     return(        
          <div>            
@@ -94,13 +92,10 @@ const handleSubmit = (e) =>{
                     placeholder ="date"
                     value= {form.date}
                     onChange = {handleChanges}           
-                />           
-           
+                />          
             <button className="butn btn bn">Submit</button>
             </form>
         </div>
     )
 }
-
-
 export default connect(null,{updateItems})(Modal)

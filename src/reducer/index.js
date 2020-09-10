@@ -5,7 +5,6 @@ const initialState = {
     rentals: []
 }
 
-
 const reducer = (state = initialState, action) => {
     console.log("action.type:" + action.type);
     switch (action.type) {

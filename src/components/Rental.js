@@ -8,10 +8,7 @@ const [isShow, setIsShow] = useState(false)
 const remove =()=>{
 deleteItems(rental.id).then(res=>setBool(bool=>!bool)) 
 }
-
-
-    return(
-        
+    return(        
             <div className = "myrental">
                 <div className = "cover"> 
                     <p><strong>City</strong>: {rental.city}</p>
@@ -28,8 +25,7 @@ deleteItems(rental.id).then(res=>setBool(bool=>!bool))
                     <button className = "butn" onClick = {remove}>Delete</button>
                     {/* <button onClick = {() =>{deleteItems(rental.id, rental.planner_id)></button> */}
                 </div>
-                {isShow && <Modal  rental= {rental}/>}
-               
+                {isShow && <Modal  rental= {rental}/>}               
             </div>      
     )
 }
