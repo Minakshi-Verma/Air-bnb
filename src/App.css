@@ -39,8 +39,8 @@ button{
 }
 .bt{
   width: 100px;
-  font-weight: 550;
-  font-size: 18px;
+  font-weight: 500;
+  font-size: 16px;
 }
 button:hover{
   width:6.5%;
@@ -68,9 +68,8 @@ button:hover{
   justify-content: space-between;
   margin: 0 auto; 
 }
-.allCard{
-  /* width:26%; */
-  min-width: 290px;
+.allCard{  
+  min-width: 288px;
   border: 1px black solid;
   background-color: rgb(34, 18, 3);
   background-size: 40%;
@@ -127,8 +126,8 @@ background-image: linear-gradient(
   border-radius: 3px;  
   margin: 25% 3% 3% 8%;
   padding: 0.3%;
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 500;
 }
 .link:hover{
   background:#ddc9bb;
