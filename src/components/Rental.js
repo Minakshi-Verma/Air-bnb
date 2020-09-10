@@ -14,11 +14,11 @@ deleteItems(rental.id).then(res=>setBool(bool=>!bool))
                     <p><strong>City</strong>: {rental.city}</p>
                     <p><strong>Zip</strong>: {rental.zip}</p>
                     <p><strong>Address</strong>: {rental.address}</p>
-                    <p><strong>Bednumber</strong>: {rental.bed_number}</p>
-                    <p><strong>Bathnumber</strong>: {rental.bath_number}</p>
+                    <p><strong>Bedrooms</strong>: {rental.bed_number}</p>
+                    <p><strong>Baths</strong>: {rental.bath_number}</p>
                     <p><strong>State</strong>: {rental.state}</p>
-                    <p><strong>Price</strong>: {rental.price}</p>
-                    <p><strong>Sqft</strong>: {rental.sqft}</p>
+                    <p><strong>Price</strong>: ${rental.price}/night</p>
+                    <p><strong>Area</strong>: {rental.sqft} sqft</p>
                     <p><strong>Email</strong>: {rental.email}</p>
                     <p><strong>Date</strong>: {rental.date}</p>                    
                     <button className = "butn" onClick = {() => setIsShow((isShow)=>!isShow)} >Edit</button>

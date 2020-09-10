@@ -20,7 +20,7 @@ export default function Banner(){
             <Link className = "link"to = {`/myrentals/${id}`}>My Rentals</Link>
             </> : null            
             }            
-          <h1>Welcome to Air bnb</h1>
+          <h1>Welcome to Airbnb</h1>
         </div>
     )
 }
