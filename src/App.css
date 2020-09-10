@@ -171,7 +171,8 @@ p{
 }
 .myrentals{
 display: flex;
-width: 80%;
+width: 86%;
+
 margin: 0 auto;
 justify-content: space-between;
 flex-wrap: wrap;
@@ -190,7 +191,7 @@ background: rgb(212,212,212);
   min-height: 10vh;
   border: 1px black solid;
   margin:1.4%;  
-  width: 18%;
+  width: 22%;  
   border-radius: 4px;
   padding: 1%; 
   font-style: italic; 

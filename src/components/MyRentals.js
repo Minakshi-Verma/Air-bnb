@@ -14,7 +14,7 @@ const MyRentals = ({rentals, getUserItems, deleteItems}) => {
    
     return(
         <div className= "heading">       
-            <h2>My rental listing</h2>
+            <h2>My Rentals</h2>
             <div className = "myrentals">
                     {rentals.map(rental=>(
                     <Rental 
