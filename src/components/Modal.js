@@ -10,10 +10,12 @@ const[form, setForm] = useState({...rental})
 const {id} = useParams()
 console.log("I am the id", id)
 
+//onclick handler to update the rental input
 const handleChanges =(e)=>{
 setForm({...form, [e.target.name]: e.target.value})
 }
 
+//handleSubmit function that dispatches the action
 const handleSubmit = (e) =>{
      e.preventDefault()      
     updateItems(rental.id, form )    
@@ -92,7 +94,7 @@ const handleSubmit = (e) =>{
                     placeholder ="date"
                     value= {form.date}
                     onChange = {handleChanges}           
-                />          
+                />                       
             <button className="butn btn bn">Submit</button>
             </form>
         </div>

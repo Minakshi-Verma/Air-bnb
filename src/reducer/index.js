@@ -5,6 +5,8 @@ const initialState = {
     rentals: []
 }
 
+//reducer function takes current state and action type 
+//and emits new updated state based on dispatched action
 const reducer = (state = initialState, action) => {
     console.log("action.type:" + action.type);
     switch (action.type) {

@@ -19,7 +19,7 @@ const deleteUserRentalEndPoint = `${baseUrl}/api/`
 const updateUserRentalEndPoint = `${baseUrl}/api/`
 
 
-
+//Registration actionCreator
 export const registration = (user) => {
     return dispatch => {     
         axios        
@@ -33,7 +33,8 @@ export const registration = (user) => {
           });
       };
     };
-    
+
+//Login actionCreator
 export const login = (user) =>{
     return dispatch => {     
         axios        
@@ -50,7 +51,8 @@ export const login = (user) =>{
           });
       };
     };
-    
+
+//actionCreator that dispatches payload to get all the rentals from the server
 export const getItems = () =>{
         return dispatch => {     
             axiosWithAuth()        
@@ -65,7 +67,8 @@ export const getItems = () =>{
               });
           };
         };
-     
+ 
+// actionCreator that dispatches payload to add a new rental to the server
 export const addItems = (rental,id) => {
         return dispatch =>{
             axiosWithAuth()
@@ -80,12 +83,12 @@ export const addItems = (rental,id) => {
         }
     }
 
+//actionCreator that dispatches payload to get all rentals belonging to specific user
 export const getUserItems = (planner_id) => {
         return dispatch =>{
             axiosWithAuth()
             .get(`${getUserRentalEndPoint + planner_id}`)
             .then (res => {
-                // console.log("I am the action from getUseritems items", res)
                 dispatch({type:GET_ALL_ITEMS, payload:res.data})                
             })
             .catch (error=> {
@@ -94,6 +97,7 @@ export const getUserItems = (planner_id) => {
         }
     }
 
+//actionCreator that dispatches payload to delete a specific rental
 export const deleteItems = (id) =>{
     return dispatch =>{
         return axiosWithAuth()
@@ -108,6 +112,7 @@ export const deleteItems = (id) =>{
     }
 }
 
+// actionCreator that dispatches payload to update a rental based on the id
 export const updateItems = (id, rental) => {
     return dispatch =>{
         return axiosWithAuth()

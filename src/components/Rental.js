@@ -20,7 +20,7 @@ deleteItems(rental.id).then(res=>setBool(bool=>!bool))
                     <p><strong>Price</strong>: {rental.price}</p>
                     <p><strong>Sqft</strong>: {rental.sqft}</p>
                     <p><strong>Email</strong>: {rental.email}</p>
-                    <p><strong>Date</strong>: {rental.date}</p>
+                    <p><strong>Date</strong>: {rental.date}</p>                    
                     <button className = "butn" onClick = {() => setIsShow((isShow)=>!isShow)} >Edit</button>
                     <button className = "butn" onClick = {remove}>Delete</button>
                     {/* <button onClick = {() =>{deleteItems(rental.id, rental.planner_id)></button> */}

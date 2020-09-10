@@ -91,7 +91,7 @@ const handleSubmit = (e) =>{
                     placeholder ="date"
                     value= {form.date}
                     onChange = {handleChanges}           
-                />           
+                />                       
             <button className="butn btn">Add new rental</button>
             </form>
         </div>
