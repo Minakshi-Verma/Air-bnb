@@ -4,7 +4,6 @@
 
 ### Deployed link 
 
-
 https://air-bnb-a9ibbbc2l.vercel.app/
 
 ### Contributors : Minakshi Verma || Devin Dias
@@ -12,9 +11,8 @@ https://air-bnb-a9ibbbc2l.vercel.app/
 ### What is Air-bnb
 You guessed it right!!! It is a small replica of popular app Bed and breakfast (BNB). With this app, a host can create his account, add their property to the list for overnight rentals. He can provide all the fancy details about his property through the input form. He can edit his listing or delete it all together. 
 
-
 ### Tech stack
-React || Redux || CSS || REST || Netlify
+React || Redux || CSS || REST || Node || Express || vercel
 
 ### Required dependencies:
 1- Axios <br />
@@ -35,10 +33,6 @@ Open http://localhost:3000 to view it in the browser.
 
 The page will reload if you make edits.
 You will also see any lint errors in the console.
-
-### npm test
-Launches the test runner in the interactive watch mode.
-See the section about running tests for more information.
 
 ### npm build
 Builds the app for production to the build folder.

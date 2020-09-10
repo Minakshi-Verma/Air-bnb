@@ -8,10 +8,9 @@
   background-position: center;
   background-color:#DAC9BF;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 80%;
   min-height: 100vh;
 }
-
 .login{
   border: 1px black solid;
   width: 22%;
@@ -25,14 +24,12 @@
   padding:1%;
   color:white;
 }
-
 .banner{  
   background-image:url("./Image/marbel.jpg");
   color:white;
   padding:0.7%;
   margin-bottom:22px
 }
-
 button{
   border-radius: 7px;
   width:6%;
@@ -40,28 +37,23 @@ button{
   font-size: medium;
   margin-top:20px
 }
-
 .bt{
   width: 100px;
   font-weight: 550;
   font-size: 18px;
 }
-
 button:hover{
   width:6.5%;
   background: #ddc9bb;  
 }
-
 .butn{
   width:40%;
   margin-left: 7%;
   padding:1%;
 }
-
 .btn{
   margin-left: 29% !important; 
 }
-
 .butn:hover{
   background:rgb(81,44,31);
   width:41%;
@@ -69,8 +61,6 @@ button:hover{
   padding:2%;  
   border-radius:7px;
 }
-
-
 .flex{
   display:flex;
   width: 87%;
@@ -80,7 +70,7 @@ button:hover{
 }
 .allCard{
   /* width:26%; */
-  width: 285px;
+  min-width: 290px;
   border: 1px black solid;
   background-color: rgb(34, 18, 3);
   background-size: 40%;
@@ -101,7 +91,7 @@ background-image: linear-gradient(
   url("./Image/rug.jpg");
   background-position: right;
   background-repeat: no-repeat;
-  background-size: 40%;
+  background-size: 280px;
   min-height: 25vh;
   background-position: unset;
   background-size: cover;
@@ -120,19 +110,15 @@ background-image: linear-gradient(
   border-radius: 8px;
   text-align: justify;
 }
-
 .fake{
   width: 270px;
   height: 40px; 
   margin:1px 3px 1px 10px;
   background-image:url("./Image/marbel.jpg")
-
 }
 .allevents{
-  background:rgb(218, 201, 191);
-    
+  background:rgb(218, 201, 191);    
 }
-
 .link{ 
   background: white;  
   text-decoration:none;
@@ -144,14 +130,12 @@ background-image: linear-gradient(
   font-size: 20px;
   font-weight: 600;
 }
-
 .link:hover{
   background:#ddc9bb;
   color:black;
   width: 30%;
   padding:0.4%;
   border-radius:6px;
-
 }
 .form{
   display:flex;
@@ -164,21 +148,17 @@ background-image: linear-gradient(
   border-radius: 6px;
   background:white;
 }
-
 .input{
   margin:0.5%;
   padding:1%;
   background:#ddc9bb;  
 }
-
 .input:hover{
   background: white;
 }
-
 h1{
   font-size: 40px
 }
-
 h2{
   background: white;
   width:30%;
@@ -190,7 +170,6 @@ h2{
 p{
   margin-left:4%;
 }
-
 .myrentals{
 display: flex;
 width: 80%;
@@ -199,7 +178,6 @@ justify-content: space-between;
 flex-wrap: wrap;
 background: rgb(212,212,212);
 }  
-
 .myrental{
   background-image: linear-gradient(
     rgba(43, 42, 42, 0.2),
@@ -219,7 +197,6 @@ background: rgb(212,212,212);
   font-style: italic; 
   text-align: justify;  
 }
-
 .cover{
  background:#ddc9bb;
  width:80%;
@@ -227,14 +204,12 @@ background: rgb(212,212,212);
  border-radius: 8px;
  padding:1%;
  border: 2px rgb(139,107,60) solid;
-}
-  
+}  
 .heading{
   background:rgb(212,212,212);
   padding:1%;
   margin-top:0
 }
-
 .Modal{
   position: fixed;
   /* z-index: 1; */
