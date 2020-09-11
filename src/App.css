@@ -41,7 +41,7 @@ button{
   width: 110px;
   font-weight: 550;
   font-size: 17px;
-  color:#797373;
+  color:#1b1a1a;
   padding:0.4% 0.5% 0.35% 0.5%;
 }
 
@@ -128,7 +128,7 @@ button:hover{
   background: white;  
   text-decoration:none;
   font-size: 0.9rem;
-  color:#797373;
+  color:#1b1a1a;
   border-radius: 3px;  
   margin: 25% 3% 3% 8%;
   padding: 0.2% 0.5% 0.2% 0.5%;

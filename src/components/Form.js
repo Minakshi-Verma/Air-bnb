@@ -92,7 +92,7 @@ const handleSubmit = (e) =>{
                     value= {form.date}
                     onChange = {handleChanges}           
                 />                       
-            <button className="butn bn">Add New Rental</button>
+            <button className="butn bn">Add Rental</button>
             </form>
         </div>
     )
