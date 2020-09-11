@@ -6,7 +6,7 @@
     ),
     url("./Image/27818-bnb-kitchen.jpg");
   background-position: center;
-  background-color:#DAC9BF;
+  background-color:#f7f1ee;
   background-repeat: no-repeat;
   background-size: 80%;
   min-height: 100vh;
@@ -14,7 +14,7 @@
 .login{
   border: 1px black solid;
   width: 22%;
-  background: rgb(155, 109, 56);  
+  background: rgb(187, 154, 116);  
   margin: 8% 0 0 35%;
   padding:2.5%;
   border-radius: 8px;
@@ -38,27 +38,34 @@ button{
   margin-top:20px
 }
 .bt{
-  width: 100px;
+  width: 110px;
   font-weight: 550;
   font-size: 17px;
+  color:#797373;
+  padding:0.4% 0.5% 0.35% 0.5%;
 }
-button:hover{
-  width:6.5%;
+
+button:hover{  
   background: #ddc9bb;  
 }
 .butn{
   width:40%;
-  margin-left: 7%;
-  padding:1%;
+  margin-left: 2%;
+  padding:1.5%;
+  border: #0f0f0f solid 0.3%;
+  background:#4d3a2d;  
+  color:#f0f0f0
 }
 .btn{
-  margin-left: 29% !important; 
+  margin-left: 12% !important; 
 }
-.butn:hover{
-  background:rgb(81,44,31);
-  width:41%;
-  color: white;
-  padding:2%;  
+.bn{
+  margin-left: 27%!important;
+}
+.butn:hover{  
+  background:#29201a;  
+  border: #2b2929 solid 0.2%; 
+  padding:1.5%;  
   border-radius:7px;
 }
 .flex{
@@ -121,10 +128,10 @@ button:hover{
   background: white;  
   text-decoration:none;
   font-size: 0.9rem;
-  color:black;
+  color:#797373;
   border-radius: 3px;  
   margin: 25% 3% 3% 8%;
-  padding: 0.3%;
+  padding: 0.2% 0.5% 0.2% 0.5%;
   font-size: 18px;
   font-weight: 500;
 }
@@ -132,7 +139,8 @@ button:hover{
   background:#ddc9bb;
   color:black;
   width: 30%;
-  padding:0.4%;
+  padding:0.2% 0.5% 0.2% 0.5%;
+  border: 1px black solid;
   border-radius:6px;
 }
 .form{
@@ -212,11 +220,14 @@ background: rgb(212,212,212);
 .Modal{
   position: fixed; 
   top: 75px;
-  background: rgb(207, 202, 202);
+  background:#f8f8f8;
   display: flex;
   flex-direction: column;
   margin-left:12%;
   width: 14.5%; 
+  padding:1.5%;
+  border: 0.1rem black solid;
+  border-radius: 8px
 };
 
 

@@ -4,7 +4,7 @@
 
 ### Deployed link 
 
-https://air-bnb-l40pjndgh.vercel.app/
+https://air-bnb.now.sh/
 
 ### Contributors : Minakshi Verma || Devin Dias
 
