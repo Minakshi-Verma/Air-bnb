@@ -216,15 +216,15 @@ flex-wrap: wrap;
   background-repeat: no-repeat;
   background-size: 14%;
   background-size: cover;
-  min-height: 10vh;
+  min-height: 10vh !important;
   border: 1px black solid;
   margin:1.6%;  
-  width: 22%;  
+  width: 22% !important;  
   border-radius: 16px;
   padding: 1.5%; 
   font-style: italic; 
   text-align: justify;
-  line-height: 10pt;  
+  line-height: 12pt;  
 }
 .cover{
  background:#e4d9ce;
