@@ -10,7 +10,7 @@ function AllEvents(props){
 
      return(
         <div className ="allevents">
-            <h2>All Rentals</h2> 
+            <h2 className="full-width">All Rentals</h2> 
             <div className ="flex"> 
                 {props.rentals.map(item=>(
                     <div className = "allCard">

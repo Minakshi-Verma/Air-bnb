@@ -46,21 +46,32 @@ button{
 }
 
 button:hover{  
-  background: #ddc9bb;  
+  background: #e4d9ce;  
 }
 .butn{
-  width:40%;
-  margin-left: 2%;
+  width:66%;
+  margin-left: 3%;
   padding:1.5%;
   border: #0f0f0f solid 0.3%;
-  background:#4d3a2d;  
+  background:rgb(53,23,14);  
   color:#f0f0f0
 }
 .btn{
-  margin-left: 12% !important; 
+  /* margin-left: 12% !important; */
+  width:42%;
+  margin-left: 3%;
+  padding:0.5%;
+  border: #0f0f0f solid 0.3%;
+  background:rgb(53,23,14);  
+  color:#f0f0f0  
 }
+.btn:hover{
+  padding:0.7%!important;
+}
+
 .bn{
-  margin-left: 27%!important;
+  margin-left: 10% !important;
+  width:80%
 }
 .butn:hover{  
   background:#29201a;  
@@ -122,7 +133,12 @@ button:hover{
   background-image:url("./Image/marbel.jpg")
 }
 .allevents{
-  background:rgb(218, 201, 191);    
+  background:rgb(218, 201, 191);  
+  width:80%;
+  margin:auto;  
+}
+.full-width{
+  width: 100%;
 }
 .link{ 
   background: white;  
@@ -136,7 +152,7 @@ button:hover{
   font-weight: 500;
 }
 .link:hover{
-  background:#ddc9bb;
+  background:#e4d9ce;
   color:black;
   width: 30%;
   padding:0.2% 0.5% 0.2% 0.5%;
@@ -162,28 +178,33 @@ button:hover{
 .input:hover{
   background: white;
 }
+.in-background{
+  background: #e4d9ce;
+}
 h1{
   font-size: 40px
 }
 h2{
-  background: white;
-  width:30%;
+  /* background: #e4d9ce; */
+  background-image:url("./Image/marbel.jpg");
+  width:80%;
+  color: #e4d9ce;
   margin:auto;
   border:1px black solid;
   border-radius: 7px;
-  padding:0.8%;
+  padding:0.8% 0 0.8% 0;
 }
 p{
   margin-left:4%;
 }
 .myrentals{
 display: flex;
-width: 86%;
-
+width: 80%;
+height: 0vh;
 margin: 0 auto;
 justify-content: space-between;
 flex-wrap: wrap;
-background: rgb(212,212,212);
+/* background: rgb(212,212,212); */
 }  
 .myrental{
   background-image: linear-gradient(
@@ -197,15 +218,15 @@ background: rgb(212,212,212);
   background-size: cover;
   min-height: 10vh;
   border: 1px black solid;
-  margin:1.4%;  
+  margin:1.6%;  
   width: 22%;  
-  border-radius: 4px;
-  padding: 1%; 
+  border-radius: 16px;
+  padding: 1.5%; 
   font-style: italic; 
   text-align: justify;  
 }
 .cover{
- background:#ddc9bb;
+ background:#e4d9ce;
  width:80%;
  margin: 0 auto;
  border-radius: 8px;
@@ -213,8 +234,9 @@ background: rgb(212,212,212);
  border: 2px rgb(139,107,60) solid;
 }  
 .heading{
-  background:rgb(212,212,212);
-  padding:1%;
+  /* background:rgb(212,212,212); */
+  /* max-height: 40vh; */
+  /* padding:3.5%; */
   margin-top:0
 }
 .Modal{

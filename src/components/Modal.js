@@ -25,70 +25,70 @@ const handleSubmit = (e) =>{
     return(        
          <div>            
             <form className ="Modal" onSubmit ={handleSubmit}>     
-                <input className= "input"
+                <input className= "input in-background"
                     type ="text"
                     name = "city"
                     placeholder ="city"
                     value= {form.city}
                     onChange = {handleChanges}           
                 />            
-                <input className= "input"
+                <input className= "input in-background"
                     type ="text"
                     name = "zip"
                     placeholder ="zip"
                     value= {form.zip}
                     onChange = {handleChanges}           
                 />            
-                <input className= "input"
+                <input className= "input in-background"
                     type ="text"
                     name = "address"
                     placeholder ="address"
                     value= {form.address}
                     onChange = {handleChanges}           
                 />           
-                <input className= "input"
+                <input className= "input in-background"
                     type ="text"
                     name = "bed_number"
                     placeholder ="bednumber"
                     value= {form.bed_number}
                     onChange = {handleChanges}           
                 />
-               <input className= "input"
+               <input className= "input in-background"
                     type ="text"
                     name = "bath_number"
                     placeholder ="bathnumber"
                     value= {form.bath_number}
                     onChange = {handleChanges}           
                 />
-                <input className= "input" 
+                <input className= "input in-background" 
                     type ="text"
                     name = "state"
                     placeholder ="state"
                     value= {form.state}
                     onChange = {handleChanges}           
                 />
-                <input className= "input"
+                <input className= "input in-background"
                     type ="text"
                     name = "price"
                     placeholder ="price"
                     value= {form.price}
                     onChange = {handleChanges}           
                 />
-                <input className= "input"
+                <input className= "input in-background"
                     type ="text"
                     name = "sqft"
                     placeholder ="sqft"
                     value= {form.sqft}
                     onChange = {handleChanges}           
                 />
-                <input className= "input"
+                <input className= "input in-background"
                     type ="text"
                     name = "email"
                     placeholder ="email"
                     value= {form.email}
                     onChange = {handleChanges}           
                 />
-                <input className= "input"
+                <input className= "input in-background"
                     type ="text"
                     name = "date"
                     placeholder ="date"
