@@ -6,10 +6,10 @@
     ),
     url("./Image/27818-bnb-kitchen.jpg");
   background-position: center;
-  background-color:#f7f1ee;
+  /* background-color:#f7f1ee; */
   background-repeat: no-repeat;
   background-size: 80%;
-  min-height: 100vh;
+  min-height: 122vh;
 }
 .login{
   border: 1px black solid;
@@ -200,7 +200,7 @@ p{
 .myrentals{
 display: flex;
 width: 80%;
-height: 0vh;
+height: 40vh;
 margin: 0 auto;
 justify-content: space-between;
 flex-wrap: wrap;
@@ -223,7 +223,8 @@ flex-wrap: wrap;
   border-radius: 16px;
   padding: 1.5%; 
   font-style: italic; 
-  text-align: justify;  
+  text-align: justify;
+  line-height: 10pt;  
 }
 .cover{
  background:#e4d9ce;
