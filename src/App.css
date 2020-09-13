@@ -6,7 +6,6 @@
     ),
     url("./Image/27818-bnb-kitchen.jpg");
   background-position: center;
-  /* background-color:#f7f1ee; */
   background-repeat: no-repeat;
   background-size: 80%;
   min-height: 122vh;
@@ -56,8 +55,7 @@ button:hover{
   background:rgb(53,23,14);  
   color:#f0f0f0
 }
-.btn{
-  /* margin-left: 12% !important; */
+.btn{  
   margin-top:0;
   width:42%;
   margin-left: 3%;
@@ -96,7 +94,8 @@ button:hover{
   min-height: 25vh;
   background-position-x: unset;
   margin: 3% 1% 2% 1%;  
-  /* word-break: break-all; */
+  /* word-break: break-all; */ 
+  overflow-wrap: break-word;
   border-radius: 8px 8px 8px 8px; 
   color:white;
   font-size: 20px;  
@@ -110,10 +109,7 @@ button:hover{
   background-position: right;
   background-repeat: no-repeat;
   background-size: 280px;
-  min-height: 25vh;
-  background-position: unset;
   background-size: cover;
-  color:white;  
 }
 .innerbox{
   width:260px;
@@ -124,7 +120,7 @@ button:hover{
   color:black; 
   padding:1.5%;
   font-style: italic;
-  font-size: 18px;
+  font-size: 16px;
   border-radius: 8px;
   text-align: justify;
 }
@@ -186,11 +182,10 @@ button:hover{
 h1{
   font-size: 30px;
 }
-h2{
-  /* background: #e4d9ce; */
+h2{ 
   background-image:url("./Image/marbel.jpg");
   width:80%;
-  font-size:20px;
+  font-size:21px;
   color: #e4d9ce;
   margin:auto;
   border:1px black solid;
@@ -208,7 +203,6 @@ height: 40vh;
 margin: 0 auto;
 justify-content: space-between;
 flex-wrap: wrap;
-/* background: rgb(212,212,212); */
 }  
 .myrental{
   background-image: linear-gradient(

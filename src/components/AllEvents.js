@@ -17,8 +17,10 @@ function AllEvents(props){
                     <div className = 'innerbox'>
                     <p><strong>City</strong>: {item.city}</p>
                     <p><strong>Zip</strong>: {item.zip}</p>
+                    <p><strong>State</strong>: {item.state}</p>
                     <p><strong>Address</strong>: {item.address}</p>
-                    <p><strong>Email</strong>: {item.email}</p>
+                    <p><strong>Email</strong>: {item.email}</p>                    
+                    <p><strong>Price</strong>: ${item.price}/night</p>
                     {/* <p><strong>Reserved</strong>: {item.reserved}</p> */}
                     </div>
                     <div className ='fake'>
