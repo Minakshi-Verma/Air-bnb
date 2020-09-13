@@ -89,7 +89,7 @@ button:hover{
   margin: 0 auto; 
 }
 .allCard{  
-  min-width: 288px;
+  min-width: 200px;
   border: 1px black solid;
   background-color: rgb(34, 18, 3);
   background-size: 40%;
@@ -184,12 +184,13 @@ button:hover{
   background: #e4d9ce;
 }
 h1{
-  font-size: 40px
+  font-size: 30px;
 }
 h2{
   /* background: #e4d9ce; */
   background-image:url("./Image/marbel.jpg");
   width:80%;
+  font-size:20px;
   color: #e4d9ce;
   margin:auto;
   border:1px black solid;
@@ -198,7 +199,7 @@ h2{
 }
 p{
   margin-left:4%;
-  line-height: 8pt;
+  line-height: 12pt;
 }
 .myrentals{
 display: flex;
