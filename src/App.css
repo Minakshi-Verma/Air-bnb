@@ -64,7 +64,8 @@ button:hover{
   padding:0.5%;
   border: #0f0f0f solid 0.3%;
   background:rgb(53,23,14);  
-  color:#f0f0f0  
+  color:#f0f0f0;
+  font-size:small;  
 }
 .btn:hover{
   padding:0.7%!important;
@@ -221,7 +222,8 @@ flex-wrap: wrap;
   min-height: 10vh;
   border: 1px black solid;
   margin:1.6%;  
-  width: 25%;  
+  width: 20%;  
+  font-size: 12px;
   border-radius: 16px;
   padding: 1.5%; 
   font-style: italic; 
