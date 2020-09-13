@@ -58,6 +58,7 @@ button:hover{
 }
 .btn{
   /* margin-left: 12% !important; */
+  margin-top:0;
   width:42%;
   margin-left: 3%;
   padding:0.5%;
@@ -196,6 +197,7 @@ h2{
 }
 p{
   margin-left:4%;
+  line-height: 8pt;
 }
 .myrentals{
 display: flex;
@@ -223,8 +225,7 @@ flex-wrap: wrap;
   border-radius: 16px;
   padding: 1.5%; 
   font-style: italic; 
-  text-align: justify;
-  line-height: 12pt;  
+  text-align: justify; 
 }
 .cover{
  background:#e4d9ce;
