@@ -218,10 +218,10 @@ flex-wrap: wrap;
   background-repeat: no-repeat;
   background-size: 14%;
   background-size: cover;
-  min-height: 10vh !important;
+  min-height: 10vh;
   border: 1px black solid;
   margin:1.6%;  
-  width: 22% !important;  
+  width: 25%;  
   border-radius: 16px;
   padding: 1.5%; 
   font-style: italic; 
@@ -235,10 +235,7 @@ flex-wrap: wrap;
  padding:1%;
  border: 2px rgb(139,107,60) solid;
 }  
-.heading{
-  /* background:rgb(212,212,212); */
-  /* max-height: 40vh; */
-  /* padding:3.5%; */
+.heading{ 
   margin-top:2%
 }
 .Modal{
