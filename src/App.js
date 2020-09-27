@@ -9,7 +9,8 @@ import Form from './components/Form';
 import MyRentals from './components/MyRentals'
 
 
-function App() {
+function App() { 
+
   return (
     <div className="App">      
       {/* <Route path = "/">

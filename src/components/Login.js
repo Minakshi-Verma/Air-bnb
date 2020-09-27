@@ -3,8 +3,7 @@ import {Link} from 'react-router-dom';
 import {connect} from 'react-redux';
 import {login} from '../actions';
 
- const Login = (props) => {
-   
+ const Login = (props) => {   
     const [creds, setCreds] = useState({})
      
     //onclick handler to update input state

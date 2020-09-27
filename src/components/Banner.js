@@ -1,7 +1,11 @@
 import React from 'react';
 import {Link, useHistory} from 'react-router-dom';
 
-export default function Banner(){
+import {connect} from 'react-redux';
+import {getItems} from '../actions';
+
+function Banner(props){
+    console.log("p====>",props)
     const history = useHistory()
     const id = localStorage.getItem(`id`)
 
@@ -18,10 +22,20 @@ export default function Banner(){
             <Link className = "link"to = {`/allevents`}>All Rentals</Link>
             <Link className = "link"to = {`/form/${id}`}>Add Rentals</Link>
             <Link className = "link"to = {`/myrentals/${id}`}>My Rentals</Link>
+            <h1>Hello {props.user.username}</h1>
             </> : null            
             }            
-          <h1>Welcome to Airbnb</h1>
+          <h1>Welcome to AirBnB</h1>
         </div>
     )
 }
+
+const mapStateToProps = (state)=>{
+    return{        
+    user: state.user,
+    
+    }
+  }
+  
+  export default connect(mapStateToProps, {getItems})(Banner)
 
