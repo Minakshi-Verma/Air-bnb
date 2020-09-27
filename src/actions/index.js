@@ -43,8 +43,8 @@ export const login = (user) =>{
             dispatch({ type: LOGIN , payload:res.data});  
             localStorage.setItem("token", res.data.token)
             localStorage.setItem("id", res.data.id)
-            history.push(`/api/${res.data.id}`)     
-                         
+            history.push(`/api/${res.data.id}`)  
+                                     
           })
           .catch(error => {
               console.log(error)           

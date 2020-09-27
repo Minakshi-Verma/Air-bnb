@@ -12,29 +12,35 @@ import MyRentals from './components/MyRentals'
 function App() {
   return (
     <div className="App">      
-      <Route path = "/">
+      {/* <Route path = "/">
         <Banner />
-      </Route>
+      </Route>  */}
+      <Route path="/" component={Banner} />         
 
-      <Route exact path = "/">
-        <Login />
-      </Route>      
-
-      <Route path = "/register">
+      {/* <Route path = "/register">
         <Register />
-      </Route>    
+      </Route>    */}
+      <Route path="/register" component={Register} /> 
 
-      <Route path = "/allevents">       
+      {/* <Route path = "/allevents">       
         <AllEvents /> 
-      </Route>
+      </Route> */}
+      <Route path="/allevents" component={AllEvents} />
 
-      <Route path = "/form/:id">       
+      {/* <Route path = "/form/:id">       
         <Form />
-      </Route> 
+      </Route>  */}
+      <Route path="/form/:id" component={Form} />
 
-      <Route path = "/myrentals/:id">       
+      {/* <Route path = "/myrentals/:id">       
         <MyRentals />
-      </Route>      
+      </Route>  */}
+      <Route path="/myrentals/:id" component={MyRentals} />
+
+      {/* <Route exact path = "/">
+        <Login />
+      </Route>  */}
+      <Route path="/" component={Login} />     
     </div>
   );
 }
