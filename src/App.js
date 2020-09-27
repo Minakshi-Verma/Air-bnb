@@ -15,32 +15,12 @@ function App() {
       {/* <Route path = "/">
         <Banner />
       </Route>  */}
-      <Route path="/" component={Banner} />         
-
-      {/* <Route path = "/register">
-        <Register />
-      </Route>    */}
-      <Route path="/register" component={Register} /> 
-
-      {/* <Route path = "/allevents">       
-        <AllEvents /> 
-      </Route> */}
-      <Route path="/allevents" component={AllEvents} />
-
-      {/* <Route path = "/form/:id">       
-        <Form />
-      </Route>  */}
-      <Route path="/form/:id" component={Form} />
-
-      {/* <Route path = "/myrentals/:id">       
-        <MyRentals />
-      </Route>  */}
+      <Route path="/" component={Banner} />      
+      <Route path="/register" component={Register} />     
+      <Route path="/allevents" component={AllEvents} />     
+      <Route path="/form/:id" component={Form} />     
       <Route path="/myrentals/:id" component={MyRentals} />
-
-      {/* <Route exact path = "/">
-        <Login />
-      </Route>  */}
-      <Route path="/" component={Login} />     
+      <Route exact path="/" component={Login} />     
     </div>
   );
 }
