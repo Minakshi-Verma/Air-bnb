@@ -1,11 +1,9 @@
 import React from 'react';
 import {Link, useHistory} from 'react-router-dom';
-
 import {connect} from 'react-redux';
 import {getItems} from '../actions';
 
-function Banner(props){
-    console.log("p====>",props)
+function Banner(props){    
     const history = useHistory()
     const id = localStorage.getItem(`id`)
 
@@ -22,18 +20,17 @@ function Banner(props){
             <Link className = "link"to = {`/allevents`}>All Rentals</Link>
             <Link className = "link"to = {`/form/${id}`}>Add Rentals</Link>
             <Link className = "link"to = {`/myrentals/${id}`}>My Rentals</Link>
-            <h1>Hello {props.user.username}</h1>
+            <h1 className = "welcome">Hello {props.user.username} !!!</h1>
             </> : null            
             }            
           <h1>Welcome to AirBnB</h1>
-        </div>
+        </div> 
     )
 }
 
 const mapStateToProps = (state)=>{
     return{        
-    user: state.user,
-    
+    user: state.user    
     }
   }
   

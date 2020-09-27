@@ -37,6 +37,7 @@ button{
   margin-top:20px
 }
 .bt{
+  background-color: #ebe5df;
   width: 110px;
   font-weight: 550;
   font-size: 17px;
@@ -138,8 +139,8 @@ button:hover{
 .full-width{
   width: 100%;
 }
-.link{ 
-  background: white;  
+.link{  
+  background: #ebe5df;  
   text-decoration:none;
   font-size: 0.9rem;
   color:#1b1a1a;
@@ -181,6 +182,17 @@ button:hover{
 }
 h1{
   font-size: 30px;
+}
+.welcome{
+  background-image: linear-gradient(
+    #7A4A14,
+    #ebe5df);
+  font-style: italic;
+  color: #1C0701;
+  /* background-color:#e4d9ce ; */
+  width:38%;
+  margin: 2% auto;
+  border-radius: 7px; 
 }
 h2{ 
   background-image:url("./Image/marbel.jpg");
