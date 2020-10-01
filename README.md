@@ -8,7 +8,7 @@ https://air-bnb.now.sh/
 
 ### Contributors : Minakshi Verma || Devin Dias
 
-<img src="./src/image/Screenshot (13).png" alt="desktop" width="600">
+<img src="./img/Screenshot (13).png" alt="desktop" width="600">
 <br/>
 
 ### What is Airbnb
