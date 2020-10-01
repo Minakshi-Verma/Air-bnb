@@ -8,6 +8,9 @@ https://air-bnb.now.sh/
 
 ### Contributors : Minakshi Verma || Devin Dias
 
+<img src="./src/image/Screenshot (13).png" alt="desktop" width="600">
+<br/>
+
 ### What is Airbnb
 You guessed it right!!! It is a small replica of popular app Bed and breakfast (BNB). With this app, a host can create his account, add their property to the list for overnight rentals. He can provide all the fancy details about his property through the input form. He can edit his listing or delete it all together. 
 
